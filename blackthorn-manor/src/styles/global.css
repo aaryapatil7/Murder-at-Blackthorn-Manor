@@ -1,0 +1,136 @@
+/* Google Fonts Import */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Cormorant+Garamond:wght@400;500;600&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  background-color: #0b0b12;
+  color: #f5f1e6;
+
+  font-family: "Cormorant Garamond", serif;
+  font-size: 18px;
+  line-height: 1.6;
+
+  overflow-x: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Headings */
+h1,
+h2,
+h3 {
+  font-family: "Cinzel", serif;
+  color: #b388ff;
+
+  margin-top: 0;
+
+  text-shadow:
+    0 0 10px rgba(179, 136, 255, 0.6),
+    0 0 20px rgba(179, 136, 255, 0.3);
+}
+
+h1 {
+  font-size: 3rem;
+  letter-spacing: 3px;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+/* Paragraphs */
+p {
+  color: #ece8f5;
+  font-size: 1.25rem;
+}
+
+/* Buttons */
+button {
+  background-color: rgba(15, 15, 25, 0.95);
+
+  color: #b388ff;
+
+  border: 2px solid #b388ff;
+  border-radius: 8px;
+
+  padding: 12px 24px;
+
+  font-family: "Cinzel", serif;
+  font-size: 1rem;
+  font-weight: 600;
+
+  cursor: pointer;
+
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #b388ff;
+  color: #111;
+
+  transform: scale(1.05);
+
+  box-shadow:
+    0 0 15px rgba(179, 136, 255, 0.8),
+    0 0 30px rgba(179, 136, 255, 0.4);
+}
+
+/* Links */
+a {
+  text-decoration: none;
+  color: #c7a6ff;
+
+  transition: 0.3s;
+}
+
+a:hover {
+  color: #ffffff;
+}
+
+/* Cards / Panels */
+.card {
+  background: rgba(10, 10, 20, 0.8);
+
+  border: 1px solid #b388ff;
+
+  border-radius: 12px;
+
+  backdrop-filter: blur(4px);
+
+  box-shadow:
+    0 0 20px rgba(0, 0, 0, 0.7),
+    0 0 20px rgba(179, 136, 255, 0.15);
+}
+
+/* Images */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #111;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #8d5cf6;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #b388ff;
+}
